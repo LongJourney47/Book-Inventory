@@ -1,0 +1,56 @@
+.BookContainer {
+  background-color: #6f5e53bb;
+  /* background-color: rgba(255, 255, 255, 0.381); */
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 0em;
+  width: 70%;
+  display: block;
+  height: 100%;
+}
+
+.BookBulletPoints,
+.BookTitles {
+  margin: 0.5em;
+}
+.ImageContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0.5em;
+}
+.ImageContainer p {
+  margin-left: 0.5em;
+}
+
+.WelcomeTitle {
+  margin: 15% auto;
+  font-size: 2.9em;
+  width: 50%;
+
+ 
+}
+
+
+/* Serves to add dynamic functionality */
+@media (max-width: 1920px), (max-height:700px ) {
+  .WelcomeTitle {
+    margin: 15% auto;
+    font-size: 2.6em;
+    width: 50%;
+  
+   
+  }
+
+ 
+
+}
+
+@media (max-width: 1280px) {
+  .WelcomeTitle {
+    margin: 15% auto;
+    font-size: 2.4em;
+    width: 50%;
+  
+   
+  }}

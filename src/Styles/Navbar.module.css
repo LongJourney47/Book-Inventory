@@ -1,0 +1,201 @@
+/* General styling */
+body {
+  box-sizing: border-box;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+  color: #f3f2f2;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #8a7968;
+  background-image: url("https://images.unsplash.com/photo-1603058817990-2b9a9abbce86?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bGlicmFyeSUyMGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+}
+
+header {
+  margin-bottom: 0.5em;
+}
+label input {
+  margin-left: 0.5em;
+}
+
+.Navbar {
+  background-color: #593d3b;
+  font-size: 2em;
+  width: 100%;
+  height: 145px;
+
+  display: flex;
+  font-weight: 700;
+  box-shadow: 0px 4px 8px rgba(18, 17, 17, 0.806);
+}
+
+.Title {
+  flex: 30%;
+}
+
+.Title p {
+  margin-left: 2em;
+}
+
+.Links {
+  flex: 30%;
+
+  text-decoration: none;
+  text-align: center;
+}
+
+.Searchfield {
+  flex: 30%;
+  display: flex;
+  justify-content: center;
+  margin-top: 28px;
+}
+
+.Searchbar[type="text"] {
+  width: 20em;
+  height: 55px;
+  transition: ease-in-out, width 0.35s ease-in-out;
+  color: black;
+  border: none;
+  appearance: none;
+  border-radius: 10px;
+
+  position: relative;
+}
+
+.Searchbar[type="text"]:focus {
+  width: 22em;
+  outline: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.LinkStyles {
+  height: 100vh;
+}
+
+.Links ul li {
+  list-style: none;
+  display: inline-block;
+  width: 20%;
+  height: 34px;
+}
+
+.LinkStyles:link {
+  text-decoration: none;
+}
+
+.LinkStyles:visited {
+  color: #f3f2f2;
+}
+
+.SubmitButton {
+  border: none;
+  background: #936639;
+  color: white;
+  margin-left: 0.5em;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.SortBooks {
+  border: none;
+  background: #936639;
+  color: white;
+  margin-left: 0.5em;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.BookResultNum input[type="number"],
+.BookResultNum,
+.SortBooks,
+.Searchbar[type="text"] {
+  font-size: 22px;
+}
+
+
+/* Serves to add dynamic functionality */
+@media (max-width: 1920px), (max-height: 700px) {
+  body {
+    font-size: 18px;
+  }
+
+  .BookResultNum input[type="number"],
+  .BookResultNum,
+  .SortBooks,
+  .Searchbar[type="text"],
+  .SubmitButton {
+    font-size: 18px;
+  }
+
+  .Navbar {
+    background-color: #593d3b;
+    font-size: 1.7em;
+    width: 100%;
+    height: 120px;
+
+    display: flex;
+    font-weight: 700;
+    box-shadow: 0px 4px 8px rgba(18, 17, 17, 0.806);
+  }
+
+  .Searchbar[type="text"] {
+    width: 18em;
+    height: 40px;
+    transition: ease-in-out, width 0.35s ease-in-out;
+    color: black;
+    font-size: 15px;
+  }
+
+  .SortBooks {
+    border: none;
+
+    margin-left: 0.5em;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 1280px){
+  body {
+    font-size: 15px;
+  }
+
+  .BookResultNum input[type="number"],
+  .BookResultNum,
+  .SortBooks,
+  .Searchbar[type="text"],
+  .SubmitButton {
+    font-size: 15px;
+  }
+
+  .Navbar {
+    background-color: #593d3b;
+    font-size: 1.7em;
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    font-weight: 700;
+    box-shadow: 0px 4px 8px rgba(18, 17, 17, 0.806);
+  }
+
+  .Searchbar[type="text"] {
+    width: 16em;
+    height: 40px;
+    transition: ease-in-out, width 0.35s ease-in-out;
+    color: black;
+    font-size: 15px;
+  }
+
+  .SortBooks {
+    border: none;
+
+    margin-left: 0.5em;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+}
