@@ -24,7 +24,7 @@ Will add a favorite functionality along with a wider array of filtering options.
 
 #### `Navigate to your terminal`
 ```bash
-git clone git@github.com:badgerbadgers/ctd-sparrow-chat-app.git
+git clone https://github.com/LongJourney47/Book-Inventory.git
 
 npm install
 
